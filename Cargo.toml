@@ -1,0 +1,15 @@
+[package]
+name = "indeterminate_messenger"
+version = "0.2.0"
+edition = "2021"
+license = "AGPL-3.0"
+description = "Wave-function toy cipher for MessengingAppQ. Research prototype, not a cryptosystem."
+readme = "README.md"
+
+[[bin]]
+name = "qmsg"
+path = "src/main.rs"
+
+[lib]
+name = "indeterminate_messenger"
+path = "src/lib.rs"
